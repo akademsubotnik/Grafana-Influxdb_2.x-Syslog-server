@@ -50,7 +50,7 @@ Your final page should look something like this (might vary accroding to your cr
 - If you did everything correctly you will get a notification stating that your data source is working.
 - Now import the dashboard in Grafana.
 - Go to Dashboards -> New -> import.
-- Put id **18679** and click load.
+- Put id [**18679**](https://grafana.com/grafana/dashboards/18679-syslog/) and click load.
 - Select the data source as your configured Influxdb and click **import**.
 - And finally you will see your logs in the dashboard.
 
