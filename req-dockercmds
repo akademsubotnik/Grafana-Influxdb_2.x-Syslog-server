@@ -1,0 +1,11 @@
+docker exec influxdb2 influx setup \
+      --username adminadmin \
+      --password adminadmin \
+      --org router \
+      --bucket syslog \
+      --force
+
+#To get the auth key!
+docker exec influxdb2 influx auth list \
+      --user adminadmin \
+      --hide-headers | cut -f 3
